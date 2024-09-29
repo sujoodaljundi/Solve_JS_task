@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Academy</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta name="keywords" content="HTML, CSS, JS, Coding Academy, Orange">
+
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif; 
+            background-color: #e3f2fd;
+            color: #0d47a1;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            background-color: #1e88e5;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-align: left;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #1565c0;
+            font-size: 1.5em;
+            border-bottom: 1px solid #bbdefb;
+            padding-bottom: 10px;
+            text-transform: capitalize;
+            line-height: 1.4; 
+            letter-spacing: 0.5px;
+            word-break: break-word;
+        }
+
+        .card ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .card ul li {
+            margin: 10px 0;
+        }
+
+        .card ul li a {
+            text-decoration: none;
+            color: #0d47a1;
+            font-size: 1.1em;
+            transition: color 0.2s ease;
+        }
+
+        .card ul li a:hover {
+            color: #1e88e5; 
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Coding Practice</h1>
+        <p>Orange Bootcamp</p>
+    </header>
+
+    <section class="cards">
+        <div class="JS basic">
+            <h3>HTML Syntax, Element Paragraph, Headings</h3>
+            <ul>
+                <li><a href="js basic/DataTypes _and_Operators1.html" target="_blank">DataTypes and Operators1</a></li>
+                <li><a href="js basic/DataTypes _and_Operators2.html" target="_blank">DataTypes and Operators2</a></li>
+                <li><a href="js basic/Arrays 1.html" target="_blank">Array1</a></li>
+                <li><a href="js basic/Arrays 2.html" target="_blank">Array2</a></li>
+                <li><a href="js basic/Conditional.html" target="_blank">Conditional</a></li>
+                <li><a href="js basic/function1.html" target="_blank">function</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
+    
