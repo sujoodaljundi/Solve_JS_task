@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .error-message {
+            color: red;
+            display: block;
+        }
+        .input-error {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+        <span id="usernameError" class="error-message">Required</span><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <span id="passwordError" class="error-message">Required</span><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword">
+        <span id="confirmPasswordError" class="error-message">Required</span><br>
+
+        <button id="registerButton" disabled>Register</button>
+    </form>
+
+    <script src="main6.js"></script>
+</body>
+</html>
